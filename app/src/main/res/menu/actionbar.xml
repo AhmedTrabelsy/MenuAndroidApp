@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ActionBar="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_search"
+        android:title="@string/menu_search"
+        android:icon="@drawable/ic_search"
+        ActionBar:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/exit"
+        android:title="@string/menu_exit"
+        android:icon="@drawable/ic_exit"
+        ActionBar:showAsAction="ifRoom|withText"/>
+</menu>
